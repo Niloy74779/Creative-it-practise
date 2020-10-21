@@ -1,0 +1,50 @@
+body{
+    width: 500px;
+    margin-left: 30%;
+
+}
+.border{
+    border: 1px solid white;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+}
+.body{
+    padding:0px 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+.name{
+    display: flex;
+}
+
+.name div{
+    margin: 10px;
+}
+
+#email{
+    width: 80%;
+    
+}
+
+textarea{
+    width: 100%;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.footer input{
+    margin-left: 90%;
+    background-color: #1dbf73;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+p{
+    color: #1dbf73;
+}
