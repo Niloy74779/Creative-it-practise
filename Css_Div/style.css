@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    margin: 30px;
+}
+.course{
+    text-align: center;
+    color:rgb(184, 176, 176);
+    font-family: 'Arimo', sans-serif;
+    margin: 30px;
+}
+/*=========icon div start==============*/
+.first3 div ,.second3 div, .third3 div {
+    border: 1px solid black;
+    padding: 5px;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+}
+i{
+    margin: 20px;
+    font-size: 40px;
+}
+.first3, .second3, .third3{
+    display: flex;
+}
+.one{
+    background-color: #ee2e24;
+    color: white;
+    border: none ;
+}
+/*=========icon div end==============*/
+
+/* Graphic div */
+
+.p{
+    width: 50%;
+    padding: 20px;
+      
+}
+.p p{
+        font-size: 16px;
+    color: #444;
+    font-family: 'Arimo', sans-serif;
+    line-height: 28px;
+}
+.p a{
+    font-size: 20px;
+    color: #ee2e24;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.imgDiv{
+    margin-left: 10px; 
+    display: flex;
+    background-color: whitesmoke;
+    
+}
+.Admission{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+.Admission img{
+    padding-right: 10px;
+}
