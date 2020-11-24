@@ -64,14 +64,11 @@ hr{
     width: 35%;
     margin-top: 15px;
 }
-.icon ul{
-    float: right;
-}
 .icon ul li{
     display: inline-block;
 }
 .icon ul li a{
-    display: block;
+    
     color: #444;
     font-weight: 700;
     padding-bottom: 10px;
