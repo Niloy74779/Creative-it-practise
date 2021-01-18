@@ -241,9 +241,6 @@ a{
 .work_img{
     width: 25%;
     position: relative;
-    
-}
-.work_img{
     overflow: hidden;
     
 }
@@ -252,7 +249,7 @@ a{
     height: 100%;
     display: block;
     transition: .8s;
-}
+}   
 .overly{
     text-align: center;
     padding: 55px 23px 50px 23px;

@@ -28,7 +28,7 @@ $(function(){
         $('.work_menu button').removeClass('active');
         $(this).addClass('active');
     });
-
+    
 
     // wow js
     new WOW().init();
@@ -38,6 +38,6 @@ $(function(){
     $('.counter').counterUp({
     delay: 10,
     time: 1000
-});
+    });
 
 })
