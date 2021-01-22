@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Produstry H.W.</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Produstry H.W.</title>
    <!-- link fav icon -->
    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
    <!-- link google fonts -->
@@ -27,20 +29,20 @@
     <!-- Header part start -->
 
     <header id="top_header">
-        <div class="container">
+        <div class="container-md px-0">
             <div class="row align-items-center">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="header_left">
                         <span><i class="fas fa-map-marker"></i> 1234, Park Street, New York, America</span>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="header_mid text-center">
                         <p>Welcome to PRODUSTRY</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="header_right text-end">
+                    <div class="header_right text-md-end">
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -59,7 +61,7 @@
 
     <!-- Menu part Start -->
 
-      <nav class="menu_fix navbar navbar-expand-md customnav">
+      <nav class="menu_fix navbar navbar-expand-md customnav d-none d-md-block">
         <div class="container">
           <a class="navbar-brand logo" href="index.html">
             <img src="images/logo.png" alt="Logo">
@@ -69,10 +71,10 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="mynav">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                    <li><a class="nav-link" href="#">About Us</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About Us</a></li>
                     <li><a class="nav-link" href="#">Pages</a></li>
-                    <li><a class="nav-link" href="#">Portfolio</a></li>
+                    <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                     <li><a class="nav-link" href="#">Our Blog</a></li>
                     <li><a class="nav-link" href="#">Contact Us</a></li>
             </ul>
@@ -85,12 +87,51 @@
 
     <!-- Menu part end -->
 
+    <!-- Mobile menu start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-none">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html
+                ">About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Mobile menu end -->
+
     <!-- Slider part start -->
       <section id="banner" class="pogoSlider">
         <div class="slider_items pogoSlider-slide" data-transition="shrinkReveal" data-duration="1000" style="background-image: url(images/banner.jpg);">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-11 banner_content pogoSlider-slide-element" data-in="slideUp" data-duration="1000">
+                    <div class="col-lg-6 col-md-8 col-sm-10 banner_content pogoSlider-slide-element" data-in="slideUp" data-duration="1000">
                         <h2>We Make Your <span>Dream</span></h2>
                         <p>We are the best construction factory on production based ever. You can get every type ofort in the construction related work from us. Just feel free and come to us. We will help you to get the best solution.</p>
                         <div class="slider_btn">
@@ -105,7 +146,7 @@
         <div class="slider_items pogoSlider-slide" data-transition="expandReveal" data-duration="1000" style="background-image: url(images/banner2.jpg);">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-11  banner_content pogoSlider-slide-element" data-in="slideUp" data-duration="1000">
+                    <div class="col-lg-6 col-md-8  col-sm-10 banner_content pogoSlider-slide-element" data-in="slideUp" data-duration="1000">
                         <h2>We Make Your <span>Dream</span></h2>
                         <p>We are the best construction factory on production based ever. You can get every type ofort in the construction related work from us. Just feel free and come to us. We will help you to get the best solution.</p>
                         <div class="slider_btn">
@@ -120,7 +161,7 @@
         <div class="slider_items pogoSlider-slide" data-transition="slideOverLeft" data-duration="1000" style="background-image: url(images/banner3.jpg);">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-11 banner_content pogoSlider-slide-element" data-in="slideUp" data-duration="1000">
+                    <div class="col-lg-6 col-md-8 col-sm-10 banner_content pogoSlider-slide-element" data-in="slideUp" data-duration="1000">
                         <h2>We Make Your <span>Dream</span></h2>
                         <p>We are the best construction factory on production based ever. You can get every type ofort in the construction related work from us. Just feel free and come to us. We will help you to get the best solution.</p>
                         <div class="slider_btn">
@@ -228,34 +269,33 @@
 
     <section id="about">
         <div class="row mx-0">
-            <div class="col-md-4 about_left" style="background-image: url(images/bg_1.jpg);">
+            <div class="col-md-4 col-sm-8 col-7 d-lg-block d-none about_left" style="background-image: url(images/bg_1.jpg);">
                 <img src="images/man.png" alt="">
             </div>
 
-            <div class="col-md-6 about_right ms-auto">
+            <div class="col-lg-6 col-md-7 col-12 about_right ms-auto px-sm-5 px-2">
                 <h2>About US</h2>
-                <ul class="nav nav-tabs about_tab_menu" id="myTab" role="tablist">
+                <ul class="nav nav-tabs about_tab_menu " id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link active" id="COMPANY-tab" data-bs-toggle="tab" href="#COMPANY" role="tab">COMPANY </a>
+                      <a class="nav-link active" id="COMPANY-tab" data-bs-toggle="tab" href="#COMPANY">COMPANY </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="HISTORY-tab" data-bs-toggle="tab" href="#HISTORY" role="tab">HISTORY</a>
+                      <a class="nav-link" id="HISTORY-tab" data-bs-toggle="tab" href="#HISTORY" >HISTORY</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="MISSION-tab" data-bs-toggle="tab" href="#MISSION" role="tab">MISSION</a>
+                      <a class="nav-link" id="MISSION-tab" data-bs-toggle="tab" href="#MISSION" >MISSION</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="AWARDS-tab" data-bs-toggle="tab" href="#AWARDS" role="tab">AWARDS</a>
+                        <a class="nav-link" id="AWARDS-tab" data-bs-toggle="tab" href="#AWARDS" >AWARDS</a>
                       </li>
                   </ul>
 
-                  <div class="tab-content" id="myTabContent">
+                  <div class="tab-content col-12" id="myTabContent">
 
                     <div class="tab-pane fade show active" id="COMPANY" role="tabpanel" aria-labelledby="COMPANY-tab"> 
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumas been the industry's standard dummy text ever since the 1500s, when an unknownprinter ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumas been the industry's standard dummy text ever since the 1500s, when an unknownprinter ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.</p>
                         
-                        <div class="about_btn"><a href="#">READ MORE</a></div>
+                        <div class="about_btn"><a href="about.html">READ MORE</a></div>
                     </div>
 
                     <div class="tab-pane fade" id="HISTORY" role="tabpanel" aria-labelledby="HISTORY-tab">
@@ -358,34 +398,34 @@
 
     <section class="counter" style="background-image: url(images/counter_bg.jpg);">
         <div class="container">
-            <div class="row">
-               <div class="col-md-3 col-sm-6 text-center">
+            <div class="row px-0">
+               <div class="col-md-3 col-6 text-center">
                    <div class="counter_items">
                        <h3 class="counter_number">219</h3> 
                         <p>Satisfied Client</p>
                    </div>
                </div>
 
-               <div class="col-md-3 col-sm-6 text-center">
+               <div class="col-md-3 col-6 text-center">
                 <div class="counter_items">
                     <h3 class="counter_number">333</h3> 
                      <p>Total Employees</p>
                 </div>
-            </div>
+                </div>
             
-            <div class="col-md-3 col-sm-6 text-center">
-                <div class="counter_items">
-                    <h3 class="counter_number">444</h3> 
-                     <p>Finished Project</p>
+                <div class="col-md-3 col-6 text-center">
+                    <div class="counter_items">
+                        <h3 class="counter_number">444</h3> 
+                        <p>Finished Project</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-md-3 col-sm-6 text-center">
-                <div class="counter_items">
-                    <h3 class="counter_number">555</h3> 
-                     <p>Happy Customer</p>
+                <div class="col-md-3 col-6 text-center">
+                    <div class="counter_items">
+                        <h3 class="counter_number">555</h3> 
+                        <p>Happy Customer</p>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
@@ -648,14 +688,14 @@
 
                <div class="slidr_icon blogslick_icon">
                     <div class="arrow_left">
-                        <a href="" class="icon_left blogicon_left">
+                        <p class="icon_left blogicon_left">
                             <i class="fa fa-angle-left"></i>
-                        </a>
+                        </p>
                     </div>
                     <div class="arrow_right">
-                        <a href="" class="icon_right blogicon_right">
+                        <p class="icon_right blogicon_right">
                             <i class="fa fa-angle-right"></i>
-                        </a>
+                        </p>
                     </div>
                 </div>
 
@@ -670,15 +710,272 @@
     <section id="testimonial">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-5 text-center">
+                <div class="col-md-5 text-center mb-5">
                     <h2>Our testimonial</h2>
                     <p>We provide you a better service. you have no complain about our service, it’s guaranteed.</p> 
+                </div>
+            </div>
+        </div>
+        <div class="testimonial_content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 testimonial_text_slider">
+                        <div class="testimonial_text">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing. </p>
+                            <h4>wiro sableng</h4>
+                            <p>Architect</p>
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                        </div>
+
+                        <div class="testimonial_text">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing. </p>
+                            <h4>wiro sableng</h4>
+                            <p>Architect</p>
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                        </div>
+
+                        <div class="testimonial_text">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing. </p>
+                            <h4>wiro sableng</h4>
+                            <p>Architect</p>
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                        </div>
+
+                        <div class="testimonial_text">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing. </p>
+                            <h4>alfred Arefin</h4>
+                            <p>Architect</p>
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                        </div>
+
+                        <div class="testimonial_text">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing. </p>
+                            <h4>wiro sableng</h4>
+                            <p>Architect</p>
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                        </div>
+
+                        <div class="testimonial_text">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing. </p>
+                            <h4>alfred Arefin</h4>
+                            <p>Architect</p>
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center ">
+                    <div class="col-md-6 testimonial_img_slider">
+                        <div class="testimonial_img">
+                            <div class="client_img">
+                                <img src="images/testimonial_img-01.png" alt=""> 
+                            </div>
+                        </div>
+                        <div class="testimonial_img ">
+                            <div class="client_img">
+                                <img src="images/testimonial_img-02.png" alt=""> 
+                            </div>
+                        </div>
+                        <div class="testimonial_img ">
+                            <div class="client_img">
+                                <img src="images/testimonial_img-03.png" alt=""> 
+                            </div>
+                        </div>
+                        <div class="testimonial_img">
+                            <div class="client_img">
+                                <img src="images/testimonial_img-01.png" alt=""> 
+                            </div>
+                        </div>
+                        <div class="testimonial_img ">
+                            <div class="client_img">
+                                <img src="images/testimonial_img-02.png" alt=""> 
+                            </div>
+                        </div>
+                        <div class="testimonial_img ">
+                            <div class="client_img">
+                                <img src="images/testimonial_img-03.png" alt=""> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slidr_icon testimonialslick_icon">
+                <div class="arrow_left testimonialicon_left">
+                    <p class="icon_left ">
+                        <i class="fa fa-angle-left"></i>
+                    </p>
+                </div>
+                <div class="arrow_right testimonialicon_right">
+                    <p class="icon_right ">
+                        <i class="fa fa-angle-right"></i>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- testimonial part end -->
+
+    <!-- logo slider part start -->
+
+    <section class="logo_slider">
+        <div class="container">
+            <div class="row">
+                <div class="logo_slick">
+                    <img src="images/web_logo-01.png" alt="slider Logo">
+                    <img src="images/web_logo-02.png" alt="slider Logo">
+                    <img src="images/web_logo-03.png" alt="slider Logo">
+                    <img src="images/web_logo-04.png" alt="slider Logo">
+                    <img src="images/web_logo-05.png" alt="slider Logo">
+                    <img src="images/web_logo-01.png" alt="slider Logo">
+                    <img src="images/web_logo-02.png" alt="slider Logo">
+                    <img src="images/web_logo-03.png" alt="slider Logo">
+                    <img src="images/web_logo-04.png" alt="slider Logo">
+                    <img src="images/web_logo-05.png" alt="slider Logo">  
+                  
+                </div> 
+            </div>
+        </div>
+
+        <div class="slidr_icon logo_sliderslick_icon">
+            <div class="arrow_left logo_slidericon_left">
+                <p class="icon_left ">
+                    <i class="fa fa-angle-left"></i>
+                </p>
+            </div>
+            <div class="arrow_right logo_slidericon_right">
+                <p class="icon_right ">
+                    <i class="fa fa-angle-right"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- logo slider part end -->
+
+
+    <!-- footer part start -->
+
+    <footer class="top_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12 footer1">
+                    <a href="index.html">
+                        <img src="images/footer_logo.png" alt="Footer Logo">
+                    </a>
+                    
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. unknown printer took a galley of type and scrambled it to make a type.</p>
+                    
+                    <ul>
+
+                        <li><a href tabindex="0"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href tabindex="0"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href tabindex="0"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href tabindex="0"><i class="fab fa-behance"></i></a></li>
+                        <li><a href tabindex="0"><i class="fab fa-google-plus"></i></a></li>
+
+                    </ul>
+                </div> 
+
+                <div class="col-lg-3 col-sm-6 col-12 footer2">
+                    <h4>Contact Us</h4>
+
+                    <div class=" footer2_location">
+                            <i class="fas fa-map-marker"></i>
+                        <div>
+                            <span>1234, Park Street Avenue, NewYork City North America.</span>
+                        </div>
+                    </div>
+                    <div class="footer2_location">
+                            <i class="fas fa-phone"></i>
+                        <div>
+                            <span>1234, Park Street Avenue, NewYork City North America.</span>
+                        </div>
+                    </div>
+                    <div class="footer2_location">
+                            <i class="fa fa-envelope"></i>
+                        <div>
+                            <span>1234, Park Street Avenue, NewYork City North America.</span>
+                        </div>
+                    </div>
+
+                   
+                            
+                </div> 
+
+                <div class="col-lg-2 col-sm-6 col-12 footer3">
+                    <h4>Important Links</h4>
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="about.html">About US</a></li>
+                       <li><a href="portfolio.html">Our Work</a></li>
+                       <li><a href="">Our Blogs</a></li>
+                       <li><a href="">Our Pages</a></li>
+                       <li><a href="">Contact Us</a></li>
+                   </ul>
+                </div> 
+
+                <div class="col-lg-4 col-sm-6 col-12 footer4">
+                    <h4>Latest News</h4>
+                    <div class="footer4_content">
+                            <img src="images/footer_img-01.jpg" alt="">
+                        <div>
+                            <h5>Nice Newest Construction Factory Work</h5>
+                            <p>26 October 2017</p> 
+                            <a href="#"><i class="fas fa-user"></i> By : Admin</a>  
+                            <a href="#"><i class="fas fa-thumbs-up"></i>2.5k Likes</a>     
+                        </div>
+                    </div> 
+                    <div class="footer4_content">
+                        <img src="images/footer_img-02.jpg" alt="">
+                    <div>
+                        <h5>Nice Newest Construction Factory Work</h5>
+                        <p>26 October 2017</p> 
+                        <a href="#"><i class="fas fa-user"></i> By : Admin</a>  
+                        <a href="#"><i class="fas fa-thumbs-up"></i>2.5k Likes</a>     
+                    </div>
+                    </div> 
+                </div> 
+
+            </div>
+        </div>
+    </footer>
+
+    <footer class="last_footer">
+        <div class="container">
+            <div class="row text-md-center">
+                <p>Copyright © 2017. All right reserved by <a href="index.html">PRODUSTRY</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer part start -->
 
 
     

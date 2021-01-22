@@ -94,10 +94,7 @@ i{
 
 
 
-.arrow_left{
-
-}
-
-.icon_left i{
-    position: relative;
+a{
+ color: lavenderblush;
+ font-size: 40px;
 }
