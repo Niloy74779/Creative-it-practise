@@ -35,6 +35,30 @@ Version: 1.0
 
 /* A. Home Page CSS Start */
 
+.praloder_main{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: 99;
+}
+.preloader{
+    width: 150px;
+    position: absolute;
+   top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+
+.preloader img{
+    width: 100%;
+}
+
 /* Common css classes start */
 
 :root{

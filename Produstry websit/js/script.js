@@ -1,5 +1,11 @@
 $(function(){
 
+
+    $(window).on('load',function(){
+        $('.praloder_main').delay(100).fadeOut(1000);
+    });
+
+
     // manu part js
     
     $('.nav_icon').click(function(){
