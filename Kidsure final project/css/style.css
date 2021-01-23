@@ -1,0 +1,89 @@
+/* 
+Template Name: Kidsure -- HTML5 Template
+Author: Md. Niloy
+Design-by : Niloy
+Version: 23456
+
+    Table of Content
+========================
+
+    A. Home Page
+        1. Common Css
+        2. Header Part
+
+
+
+*/
+
+
+/* A. Home Page CSS Start */
+
+/* common css start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo 2', cursive;
+font-family: 'Rubik', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,span,a,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* section heading */
+
+.section_heading h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-family: 'Baloo', cursive !important;
+}
+.section_heading p{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif !important;
+    position: relative;
+    color: #ca619b;
+}
+.section_heading p::after{
+    content: '';
+    width: 60px;
+    bottom: 10px;
+    right: 120px;
+    height: 1px;
+    position: absolute;
+    background-color: #ca619b;
+       
+}
+.section_heading p::before{
+    content: '';
+    width: 60px;
+    bottom: 10px;
+    left: 120px;
+    height: 1px;
+    position: absolute;
+    background-color: #ca619b;
+}
+
+
+/* common css end */
+
+
+/* Header Part Start */
+
+/* Header Part end */
+
+
+
+
+
+/* A. Home Page CSS end */

@@ -119,6 +119,7 @@ a{
 }
 .banner_content img{
     margin:  48px 0;
+    display: inline-block;
 }
 
 .banner_content a{
@@ -217,19 +218,29 @@ a{
 
 /* service part end */
 
+/*counter part start */
+
+.counter_1{
+    padding: 50px 0;
+    background-color: whitesmoke;
+}
+.counter_items{
+    width: 25%;
+    text-align: center;
+}
+
+/*  counter part end */
+
 /* work part start */
 
 .work_heading{
-    padding: 105px 0 75px 0;
+    padding-top: 105px;
     text-align: center !important;
     
 }
 .work_img{
     width: 25%;
     position: relative;
-    
-}
-.work_img{
     overflow: hidden;
     
 }
@@ -238,7 +249,7 @@ a{
     height: 100%;
     display: block;
     transition: .8s;
-}
+}   
 .overly{
     text-align: center;
     padding: 55px 23px 50px 23px;
@@ -271,6 +282,24 @@ a{
     color: #ffffff;
     line-height: 21px;
 }
+
+.work_menu{
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.work_menu button{
+    background: none;
+    border: none;
+    color: #333333;
+    margin:0 10px;
+    font-size: 20px;
+}
+.work_menu .active{
+    color: orangered;
+}
+
+
 /* work part end */
 
 /* contact part start */
@@ -365,6 +394,81 @@ footer p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rt_slider ,
+.lt_slider{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px #ddd;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.rt_slider{
+    right: 0;
+}
+.lt_slider{
+    left: 0;
+}
+
+
+.slider_dots{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    
+
+}
+.slider_dots li{
+    display: inline-block;
+    margin:0 5px;
+    
+    
+}
+.slider_dots button{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: transparent;
+    cursor: pointer;
+}
+.slider_dots .slick-active button {
+    background-color: #555555;
+} 
 
 
 

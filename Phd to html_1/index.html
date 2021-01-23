@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHD To HTML</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Link google font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&display=swap" rel="stylesheet">
     <!-- link fontawesome Icon -->
@@ -17,12 +20,12 @@
         <header id="main_manu">
             <div class="container">
                 <div class="row valign space-between">
-                    <div class="logo">
+                    <div class="logo wow slideInRight"data-wow-duration="3s">
                        <a href="#">
                            <img src="images/logo.png" alt="logo">
                        </a>
                     </div>
-                    <nav class="menu">
+                    <nav class="menu wow slideInLeft"data-wow-duration="3s">
                         <ul>
                             <li><a href="#">home</a></li>
                             <li><a href="#">about ME</a></li>
@@ -49,8 +52,20 @@
                             <img src="images/banner2.png" alt="bannerr">
                         </div>
                         <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
 
- 
+            <div class="banner_img" style="background-image: url(images/banner1.jpg);">
+                <div class="container">
+                    <div class="banner_content">
+                        <h4> Lorem ipsum dolor sit iusmod tempor</h4>
+                        <h1>incididunt bore</h1>
+                        <p>Orem ipsum dolor sit amet, consectetur</p>
+                        <div>
+                            <img src="images/banner2.png" alt="bannerr">
+                        </div>
+                        <a href="#">Know More</a>
                     </div>
                 </div>
             </div>
@@ -59,9 +74,9 @@
     <!-- banner part end -->
 
     <!-- About parrt start -->
-        <section id="about">
+        <section id="about ">
             <div class="container">
-                <div class="row">
+                <div class="row wow fadeInUp">
                     <div class="common about_heading ">
                         <h2>ABOUT ME</h2>
                         <img src="images/about-hr.png" alt="">
@@ -100,7 +115,7 @@
     <!-- About parrt end -->
 
     <!-- service part start -->
-        <section id="service">
+        <section id="service" style="background-image: url(images/service2.jpg);">
             <div class="container">
                 <div class="common service_content">
                         <h2>SERVICES</h2>
@@ -141,6 +156,34 @@
         </section>
     <!-- service part end -->
 
+
+    <!-- counter part start -->
+
+    <section class="counter_1">
+        <div class="container">
+            <div class="row">
+                <div class="counter_items">
+                    <h2 class="counter">1000</h2>
+                    <h4>project</h4>
+                </div>
+                <div class="counter_items">
+                    <h2 class="counter">453</h2>
+                    <h4>clint</h4>
+                </div>
+                <div class="counter_items">
+                    <h2 class="counter">45</h2>
+                       <h4>award</h4>
+                </div>
+                <div class="counter_items">
+                    <h2 class="counter">546</h2>
+                    <h4>stars</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter part end -->
+
+
     <!-- work part start -->
         <section id="work">
             <div class="container">
@@ -151,70 +194,80 @@
                           <br>  ut labore et dolore magna aliqua.</p>
                 </div>
             </div> 
-            <div class="work_items">
-                <div class="row">
-                    <div class="work_img">
-                        <img src="images/work1.jpg" alt="work_image">
+            <div class="row work_menu wow fadeInUp">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter=".design">Design</button>
+                <button data-filter=".development">Development</button>
+                <button data-filter=".web">Web</button>
+            </div>
+            <div class="work_items wow fadeInUp">
+                <div class="row filter_head">
+                    <div class="work_img  mix design">
+                        <a class="venobox" data-gall="Niloy" href="images/work1.jpg"><img src="images/work1.jpg" alt="work_image"></a>
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
                         </div>
                     </div>
-                    <div class="work_img">
-                        <img src="images/work2.jpg" alt="work_image">
+                    <div class="work_img mix development">
+                        
+                        <a class="venobox" data-gall="Niloy" href="images/work2.jpg"><img src="images/work2.jpg" alt="work_image">
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
                         </div>
                     </div>
-                    <div class="work_img">
-                        <img src="images/work3.jpg" alt="work_image">
+                    <div class="work_img mix design">
+                        <a class="venobox" data-gall="Niloy" href="images/work3.jpg"><img src="images/work3.jpg" alt="work_image">
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
                         </div>
                     </div>
-                    <div class="work_img">
-                        <img src="images/work4.jpg" alt="work_image">
+                    <div class="work_img mix web">
+                        <a class="venobox" data-gall="Niloy" href="images/work4.jpg"><img src="images/work4.jpg" alt="work_image">
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
                         </div>
                     </div>
-                    <div class="work_img">
-                        <img src="images/work5.jpg" alt="work_image">
+                    <div class="work_img mix web">
+                        <a class="venobox" data-gall="Niloy" href="images/work5.jpg"><img src="images/work5.jpg" alt="work_image">
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
                         </div>
                     </div>
-                    <div class="work_img">
+                    <div class="work_img mix design">
                         <img src="images/work6.jpg" alt="work_image">
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
+                                <a class="venobox" data-gall="Niloy" href="images/work7.jpg"> <i class="fas fa-plus"></i></a>
                         </div>
                     </div>
-                    <div class="work_img">
+                    <div class="work_img mix development">
                         <img src="images/work7.jpg" alt="work_image">
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
+                               <a class="venobox" data-gall="Niloy" href="images/work7.jpg"> <i class="fas fa-plus"></i></a>
                         </div>
                     </div>
-                    <div class="work_img">
-                        <img src="images/work8.jpg" alt="work_image">
+                    <div class="work_img mix web">
+                        <img src="images/work2.jpg" alt="work_image">
                         <div class="overly">
                             <h4>Title goes here</h4>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
                                 et dolorerserss eerhfre mag.</p>
+                                <a class="venobox" data-gall="Niloy" href="images/work7.jpg"> <i class="fas fa-plus"></i></a>
                         </div>
                     </div>
                        
@@ -225,7 +278,7 @@
 
 
     <!-- contact part start -->
-        <section class="contact">
+        <section class="contact wow fadeInUp">
             <div class="container">
                 <div class="common contact_heading">
                     <h2>CONTACT ME</h2>
@@ -258,5 +311,28 @@
             <p>© MYFOLIO</p>
         </footer>
     <!-- footer part end -->
+
+
+    <div class="slider" >
+        <div><img src="images/work1.jpg" alt=""></div>
+        <div><img src="images/work1.jpg" alt=""></div>
+        <div><img src="images/work1.jpg" alt=""></div>
+        <div><img src="images/work1.jpg" alt=""></div>
+        <div><img src="images/work1.jpg" alt=""></div>
+        <div><img src="images/work1.jpg" alt=""></div>
+        <div><img src="images/work1.jpg" alt=""></div>
+    </div>
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
